@@ -370,13 +370,13 @@ section{
   width: 60%;
 }
 .progress-line.javascript span{
-  width: 85%;
+  width: 80%;
 }
 .progress-line.python span{
   width: 50%;
 }
 .progress-line.react span{
-  width: 75%;
+  width: 50%;
 }
 .progress-line span::after{
  position: absolute;
@@ -396,14 +396,14 @@ section{
 .progress-line.css span::after{
   content: "60%";
 }
-.progress-line.Javascript span::after{
-  content: "85%";
+.progress-line.javascript span::after{
+  content: "80%";
 }
 .progress-line.python span::after{
   content: "50%";
 }
 .progress-line.react span::after{
-  content: "75%";
+  content: "50%";
 }
 .progress-line span::before{
   content: "";
@@ -533,6 +533,7 @@ section{
   font-size: 60px;
   line-height: 1;
   text-align: center;
+  margin-bottom: 50px;
 }
 .main-text h2 span{
   color: #0ef;
@@ -571,13 +572,13 @@ section{
   transition: height 0.5s;
 }
 .layer h5{
-  color: #000;
+  color: #0ef;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 .layer p{
-  color: #000;
+  color: white;
   font-size: 1rem;
   line-height: 1.8;
 }
@@ -678,7 +679,7 @@ section{
   outline: none;
   width: 90%;
   padding: 18px;
-  background: #555557;
+  background: white;
   color: #000;
   font-size: 1rem;
   font-weight: 600;
@@ -717,7 +718,9 @@ section{
   width: 100%;
   text-align: center;
   padding: 25px 0;
-  background: rgb(7, 85, 91);
+  /* background: rgb(7, 85, 91); */
+  background: #3DCAB1;
+  color: #fff;
   font-weight: 300;
   margin-top: 70px;
 }
